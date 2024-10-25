@@ -1,3 +1,4 @@
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.AbstractMap.SimpleEntry;
@@ -43,7 +44,6 @@ public class Main {
         // Implementation omitted
         return new SimpleEntry<>(false, -1);
     }
-
     public static List<LogEntry> findLogsWithRange(String qtext, String fromTS, String toTS) {
         /*
         1. Input:
